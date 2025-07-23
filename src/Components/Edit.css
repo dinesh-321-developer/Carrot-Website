@@ -1,0 +1,17 @@
+.box3{
+  width: 300px;
+  height: 70px;
+  background-color: rgb(202, 196, 196);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: aquamarine;
+  font-size: large;
+  font-weight: bold;
+    
+}
+.box2{
+ width: 300px;
+  height: 70px;
+  background-color: rgb(184, 98, 98);
+  border-radius: 10px;
+}

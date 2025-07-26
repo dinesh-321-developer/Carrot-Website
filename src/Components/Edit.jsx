@@ -3,8 +3,11 @@ import {
   Navbar, Form, FormControl, Button,
   Dropdown, ButtonGroup, DropdownButton,
   Carousel,
+  Col,
+  Row,
 } from 'react-bootstrap';
 import '../Components/Edit.css';
+import Slider1 from "../Assets/Slider1.png"
 
 const VariantsExample = () => (
   <>
@@ -59,9 +62,10 @@ const Edit = () => (
       <Carousel className="mt-4">
         {[
           {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN9TD9rN4P1XKFaEOdshlrzhz0hRQrOUA2dYt3WKzhkdKhVHdz',
-            label: 'First slide label',
-            text: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+            src: Slider1,
+                        label: 'Second slide label',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        
           },
           {
             src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZdMQGL5CTDbnbFjRou3viW9wfbtGmHLaZIDzuU7ocBK0Qsl0f',
@@ -88,9 +92,11 @@ const Edit = () => (
           </Carousel.Item>
         ))}
       </Carousel>
-
+      <Row>
+ <Col xs={1} sm={2} md={3} lg={3}>
       <div className=" gap-2 mt-4">
         {[
+           
           ['cake & milk',65],
           ['fresh meat',30],
           ['vegetables',25],
@@ -103,6 +109,17 @@ const Edit = () => (
         ))}
         <div className="box3">View More</div>
       </div>
+       </Col>
+        <Col xs={1} sm={2} md={3} lg={9} style={{backgroundColor:"red"}}>
+        <Row>
+           <Col  xs={1} sm={2} md={3} lg={3}></Col>
+           <div className='design'>
+            <img src="https://maraviyainfotech.com/projects/carrot-tailwind/assets/img/categories/3.jpg" alt="" />
+            <img src="https://maraviyainfotech.com/projects/carrot-tailwind/assets/img/categories/4.jpg" alt="" />
+           </div>
+        </Row>
+        </Col>
+       </Row>
     </div>
   </div>
 );

@@ -1,0 +1,35 @@
+.table6{
+    background-color: rgb(225, 231, 231);
+    /* width: 200px; */
+    height: 50px;
+margin-bottom: 20px;
+border: 1px solid black;
+border-radius: 7px;
+color: rgb(13, 14, 13);
+font-weight: bold;
+
+}
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* position: absolute;
+    right: 800px;
+    top: 1180px; */
+gap: 40px;
+    height: 200px;
+}
+.fruit1{
+   
+    height: 100px;
+}
+/* .public{
+    position: absolute;
+    right: 1060px;
+    top: 1600px;
+
+} */
+
+.run{
+    gap: 20px;
+    width: 90%;
+}

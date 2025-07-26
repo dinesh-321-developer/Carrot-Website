@@ -68,7 +68,7 @@ const Edit = () => (
         
           },
           {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZdMQGL5CTDbnbFjRou3viW9wfbtGmHLaZIDzuU7ocBK0Qsl0f',
+            src: Slider1,
             label: 'Second slide label',
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
           },
